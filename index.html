@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="reset.css" />
+		<link rel="stylesheet" href="index.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Dices</title>
+	</head>
+	<body>
+		<div class="main">
+			<div class="main__container container">
+				<!-- Левая чась -->
+
+				<div class="main__player-left main__player">
+					<div class="player-left__wrapper wrapper">
+						<button
+							class="btn-player btn-player__miss__left btn-player__miss close"
+						>
+							Пропустить 2 хода
+						</button>
+						<button class="btn-add-player__left btn-add-player">
+							+ Добавить игрока
+						</button>
+						<button class="btn-player__left btn-player hidden">
+							Имя игрока
+						</button>
+					</div>
+				</div>
+
+				<!-- Центральная часть -->
+
+				<div class="main__player-central main__player">
+					<div class="player-central__wrapper wrapper">
+						<div class="player-top">
+							<button class="btn-add-player__top btn-add-player">
+								+ Добавить игрока
+							</button>
+							<button class="btn-player__top btn-player btn-player hidden">
+								Имя игрока
+							</button>
+						</div>
+
+						<!-- Игровое поле -->
+
+						<div class="central-field">
+							<div class="central-field__wrapper">
+								<div class="central-field__elem central-field__start start">
+									<button class="btn-start">Начать игру</button>
+								</div>
+
+								<div
+									class="central-field__elem central-field__who-first who-first hidden"
+								>
+									<button class="btn-who-first">Кто ходит первый?</button>
+								</div>
+
+								<div
+									class="central-field__elem boosts central-field__boosts hidden"
+								>
+									<button class="btn-three-moves">3 хода ✖︎ 2</button>
+									<button class="btn-mult-by-two">✖︎ 2</button>
+									<button class="btn-mult-by-three">✖︎ 3</button>
+								</div>
+
+								<div
+									class="central-field__elem central-field__quantity-moves quantity-moves hidden"
+								>
+									<div class="quantity-moves__item"></div>
+								</div>
+							</div>
+						</div>
+
+						<!-- КОНЕЦ игрового поля -->
+
+						<div class="player-bottom">
+							<button class="btn-add-player__bottom btn-add-player">
+								+ Добавить игрока
+							</button>
+							<button class="btn-player__bottom btn-player btn-player hidden">
+								Имя игрока
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<!-- Правая часть -->
+
+				<div class="main__player-right main__player">
+					<div class="player-right__wrapper wrapper">
+						<button
+							class="btn-player btn-player__miss__right btn-player__miss close"
+						>
+							Пропустить 2 хода
+						</button>
+						<button class="btn-add-player__right btn-add-player">
+							+ Добавить игрока
+						</button>
+						<button class="btn-player__right btn-player hidden">
+							Имя игрока
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="player-menu hidden">
+			<div class="player-menu__container container">
+				<div class="collor">
+					<div class="collor__wrapper wrapper">
+						<div class="color__title title">Выбери цвет</div>
+					</div>
+
+					<div class="collor__wrapper wrapper">
+						<div class="color__colomn">
+							<div class="btn-color-red btn-color-item"></div>
+							<div class="btn-color-green btn-color-item"></div>
+						</div>
+						<div class="color__colomn">
+							<div class="btn-color-yellow btn-color-item"></div>
+							<div class="btn-color-blue btn-color-item"></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="name">
+					<div class="name__wrapper wrapper">
+						<div class="name__title title">Введи имя</div>
+					</div>
+					<div class="name__wrapper wrapper">
+						<input class="name-input" type="text" name="" id="" />
+					</div>
+					<div class="name__wrapper wrapper">
+						<button class="btn-enter" type="submit">Enter</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="index.js"></script>
+	</body>
+</html>

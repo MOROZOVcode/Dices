@@ -1,0 +1,285 @@
+body {
+	font-family: 'Poppins', sans-serif;
+	background-color: rgb(48, 48, 48);
+	display: flex
+}
+
+.wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.main {
+	height: 100vh;
+	width: 100vw;
+}
+
+.main__container {
+	display: flex;
+}
+
+.main__player {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.main__player-left, .main__player-right {
+	width: 25vw;
+}
+
+.main__player-central {
+	width: 50vw;
+}
+
+.player-left__wrapper {
+	transform: rotate(90deg);
+	margin-right: -4rem;
+}
+
+.player-right__wrapper {
+	transform: rotate(-90deg);
+	margin-left: -4rem;
+}
+
+.player-central__wrapper {
+	height: 95%;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.player-top {
+	transform: rotate(180deg);
+}
+
+button.btn-add-player {
+	width: 26rem;
+	height: 7rem;
+	border: none;
+	background-color: transparent;
+	color: rgb(220 220 220);
+	font-weight: 700;
+	font-size: 3rem;
+}
+
+button.btn-player {
+	width: 26rem;
+	height: 7rem;
+	border-width: 0.7rem;
+	border-style: solid;
+	background-color: transparent;
+	color: rgb(255, 255, 255);
+	border-radius: 2rem;
+	font-size: 4rem;
+	margin-top: 1rem;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.btn-player.not-active {
+	color: rgb(100 100 100);
+	border-color: rgb(100 100 100);
+}
+
+.btn-player.prepend {
+	border-color: rgb(100 100 100);
+}
+
+.red {
+	border-color: red;
+}
+
+.green {
+	border-color: green;
+}
+
+.yellow {
+	border-color: yellow;
+}
+
+.blue {
+	border-color: rgb(0, 100, 255);
+}
+
+button.btn-player__miss {
+	width: 20rem;
+	height: 3rem;
+	border: 0.3rem dashed #9301ff;
+	background-color: transparent;
+	color: #9301ff;
+	font-size: 1.5rem;
+	border-radius: 1rem;
+}
+
+.central-field {
+	width: 100%;
+}
+
+.central-field__elem {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+button.btn-start {
+	width: 14rem;
+	height: 4rem;
+	border-radius: 1rem;
+	background-color: rgb(220 220 220);
+	font-size: 2rem;
+}
+
+.btn-who-first {
+	width: 33rem;
+	height: 6rem;
+	border-radius: 1rem;
+	background-color: rgb(220 220 220);
+	font-size: 3rem;
+}
+
+.boosts>button {
+	width: 8rem;
+	height: 8rem;
+	border: 0.3rem solid rgb(255 255 255);
+	background-color: transparent;
+	color: #ffffff;
+	border-radius: 2rem;
+	font-size: 3rem;
+}
+
+.boosts>button:first-child {
+	font-size: 2rem;
+}
+
+.boosts>button:first-child.active {
+	border-color: #ff8400;
+}
+
+.boosts {
+	justify-content: space-between;
+}
+
+.quantity-moves__item {
+	color: rgb(255 255 255);
+	font-size: 10rem;
+	font-weight: 700;
+}
+
+.hidden {
+	display: none;
+}
+
+div.hidden {
+	display: none;
+}
+
+.close {
+	visibility: hidden;
+}
+
+.rotate {
+	transform: rotate(180deg);
+}
+
+/*  */
+
+.player-menu {
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+	width: 100vw;
+}
+
+.player-menu__container {
+	width: 20rem;
+	font-size: 2.5rem;
+	display: flex;
+	flex-direction: column;
+	color: rgb(220 220 220);
+}
+
+.container {}
+
+.collor {
+	margin-top: 1rem;
+}
+
+.collor__wrapper {
+	/* flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap; */
+}
+
+.color__colomn {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 2rem;
+}
+
+.btn-color-item {
+	width: 7rem;
+	height: 7rem;
+	border-radius: 1rem;
+}
+
+
+
+.btn-color-red {
+	background-color: rgb(255, 0, 0);
+}
+
+.btn-color-green {
+	background-color: rgb(0, 255, 0);
+}
+
+.btn-color-yellow {
+	background-color: rgb(255, 255, 0);
+}
+
+.btn-color-blue {
+	background-color: rgb(0, 100, 255);
+}
+
+.btn-color-item.not-active {
+	background-color: rgb(100 100 100);
+}
+
+.btn-color-item.active {
+	border: .5rem solid white;
+}
+
+.name {}
+
+.name__wrapper {}
+
+.title {
+	margin-bottom: 1rem;
+}
+
+input {
+	font-family: inherit;
+	font-size: 2.5rem;
+	font-weight: 400;
+	color: rgb(220, 220, 220);
+	padding-left: 1rem;
+}
+
+.name-input {
+	width: 100%;
+	border-radius: 1rem;
+	background-color: transparent;
+	border: .5rem solid white;
+}
+
+.btn-enter {
+	width: 100%;
+	height: 4rem;
+	margin-top: 1rem;
+	border-radius: 1rem;
+}
