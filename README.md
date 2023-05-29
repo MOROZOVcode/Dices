@@ -27,9 +27,9 @@
 
 **Скриншоты макета:**
 
-![screenshot](forReadme/Dices_alfa1.png)
+![screenshot](https://github.com/MOROZOVcode/Dices/blob/main/forReadme/Dices_alfa1.png)
 
-![screenshot](forReadme/Dices_alfa2.png)
+![screenshot](https://github.com/MOROZOVcode/Dices/blob/main/forReadme/Dices_alfa2.png)
 
 ---
 
